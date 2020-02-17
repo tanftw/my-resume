@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-300;
+}
+main ul li {
+  margin: 15px 0;
+}
+main li i {
+  display: block;
+  float: left;
+  margin-top: 4px;
+}
+main li span {
+  display: block;
+  margin-left: 15px;
+  color: #565656;
+}
+body {
+  font-family: 'Questrial', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Crimson Text', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
